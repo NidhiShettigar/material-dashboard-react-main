@@ -53,10 +53,10 @@ function reducer(state, action) {
     case "OPEN_CONFIGURATOR": {
       return { ...state, openConfigurator: action.value };
     }
-     { ...state, direction: action.value };
+    case "DIRECTION": {
+      return { ...state, direction: action.value };
     }
-    case "LAYcase "DIRECTION": {
-      returnOUT": {
+    case "LAYOUT": {
       return { ...state, layout: action.value };
     }
     case "DARKMODE": {
